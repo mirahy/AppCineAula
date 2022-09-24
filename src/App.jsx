@@ -1,14 +1,14 @@
 import { Button } from "./components/Button"
-
+import { Container } from "./components/Container"
+import './styles/globalStyle.css'
 function App() {
-  let nome = "APP"
+ 
   return (
-    <div className="App">
-      <h1>{nome}</h1>
-      <Button text="Confirmar" variant="danger" />
-      <Button text="OK" variant="success" />
-      <Button text="Delete" />
-    </div>  
+    <>
+      <Container>
+        <h1>Texto</h1>
+      </Container>
+    </>  
   )
 }
 
