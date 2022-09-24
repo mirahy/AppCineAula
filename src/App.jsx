@@ -8,7 +8,7 @@ function App() {
       <Button text="Confirmar" variant="danger" />
       <Button text="OK" variant="success" />
       <Button text="Delete" />
-    </div>
+    </div>  
   )
 }
 
